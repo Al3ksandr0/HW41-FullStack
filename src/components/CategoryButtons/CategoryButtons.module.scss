@@ -1,0 +1,17 @@
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #1c1e22;
+    color: yellow;
+    border: 1px solid rgba(0, 0, 0, 0.917);
+    transition: 0.3s;
+
+    &:hover {
+        background-color: #343a40cb !important;
+    }
+}

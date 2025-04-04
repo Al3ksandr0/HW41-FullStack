@@ -1,0 +1,10 @@
+.modal :global(.ant-modal-content) { //global не дает ему стать локальным
+    background: #111a2b;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.content {
+    padding-top: 20px;
+}

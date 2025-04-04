@@ -1,0 +1,19 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.card {
+    padding: 10px;
+    background: #1c1e22;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+        background: #343c44;
+    }
+}
